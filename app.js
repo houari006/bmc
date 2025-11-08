@@ -226,4 +226,5 @@ app.get("/api/projects", async (req, res) => {
 // ===================================================
 // 🚀 Export for Vercel
 // ===================================================
-export default app;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
