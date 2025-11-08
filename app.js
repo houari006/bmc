@@ -692,9 +692,4 @@ app.get("/api/projects", async (req, res) => {
  /// console.log(`🎨 Design Assistant activated with creative support`);
  // console.log(`🔧 Health check available at http://localhost:${PORT}/api/health`);
 //});
-app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://localhost:${PORT}`);
-  console.log(`🤖 AI Assistant ready for BMC sessions and Design help`);
-  console.log(`🎨 Design Assistant activated with creative support`);
-  console.log(`🔧 Health check available at http://localhost:${PORT}/api/health`);
-});
+export default app;
