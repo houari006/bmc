@@ -669,6 +669,9 @@ app.post(
     }
   }
 );
+app.get("/", (req, res) => {
+  res.send("Hello from Node.js on Vercel!");
+});
 
 app.get("/api/projects", async (req, res) => {
   try {
